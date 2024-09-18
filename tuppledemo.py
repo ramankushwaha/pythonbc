@@ -19,11 +19,13 @@
 # }
 # print(student["number"])
 
-class AgeCalculater:
-    birthYear=int(input("enter your birth year :"))
-    currentYear=int(input("enter todays year :"))
-    age=currentYear-birthYear
-# age=AgeCalculater
-yourAge=AgeCalculater.age
-print("your age is ",yourAge)
+# class AgeCalculater:
+#     birthYear=int(input("enter your birth year :"))
+#     currentYear=int(input("enter todays year :"))
+#     age=currentYear-birthYear
+
+# yourAge=AgeCalculater.age
+# print("your age is ",yourAge)
     
+a="shubham98"
+print(type(a))
